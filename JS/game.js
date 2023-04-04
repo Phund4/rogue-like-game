@@ -8,7 +8,7 @@ import {Unit} from './unit.js'
 import {Item} from './item.js'
 
 // класс игры
-export class Game extends Helper {
+class Game extends Helper {
     // логика перезапуска игры
     restart() {
         const buttonRestart = document.querySelector('.restart');
